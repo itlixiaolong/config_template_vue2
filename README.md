@@ -1,0 +1,2 @@
+# config_template_vue2
+一个集成eslint和stylelint的vue-cli2创建的模板
