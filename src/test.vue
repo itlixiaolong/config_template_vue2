@@ -24,6 +24,7 @@ export default {
   /* less */
   div {
     width: 200px;
+    color: red;
 
     span {
       height: 19%;
