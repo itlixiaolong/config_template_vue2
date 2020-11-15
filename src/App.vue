@@ -10,17 +10,15 @@
 <script>
 export default {
   name: 'App',
-  data () {
-    return {
-
-    }
-  }
+  data() {
+    return {}
+  },
+  methods: {}
 }
 </script>
 
 <style>
 #app {
-  width: 200px;
   margin-top: 60px;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

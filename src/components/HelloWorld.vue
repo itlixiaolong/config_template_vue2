@@ -86,7 +86,7 @@
 <script>
 export default {
   name: 'HelloWorld',
-  data () {
+  data() {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
@@ -98,6 +98,8 @@ export default {
 <style scoped>
 h1,
 h2 {
+  width: 200px;
+  font-family: PingFangSC;
   font-weight: normal;
 }
 

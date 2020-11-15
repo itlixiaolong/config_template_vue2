@@ -21,6 +21,7 @@ module.exports = {
       'color-hex-case': 'lower', // 颜色值为小写字母(stylelint-config-standard)
       'color-no-invalid-hex': true, // 颜色值不能为无效值(stylelint-config-standard)
       'font-family-name-quotes': 'always-where-recommended', // 字体系列中命名时带引号
+      'font-family-no-missing-generic-family-keyword': null, //禁止通用字体的校验
       'function-url-quotes': 'always', // 地址一定要写引号
       'number-leading-zero': 'never', // 要求或分数低于1的数字禁止前导零
       'number-no-trailing-zeros': true, // 禁止在数量尾随零
