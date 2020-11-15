@@ -8,7 +8,7 @@
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src --fix",
-    "stylelint": "stylelint --ext .css,.less,scss,sass,.vue src --fix",
+    "stylelint": "stylelint src/**/*.{css,less,scss,sass,.vue} --fix",
     "build": "node build/build.js"
   },
   "dependencies": {
@@ -78,8 +78,8 @@
   ],
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint",
-      "commit-msg": "node script/verify-commit.js"
+      "pre-commit": "npm run lint && npm run stylelint",
+      "commit-msg": "node verify-commit.js"
     }
   }
 }

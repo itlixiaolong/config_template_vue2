@@ -11,8 +11,7 @@
 
 <script type="text/ecmascript-6">
 export default {
-  // eslint-disable-next-line
-  name: 'test',
+  name: 'Test',
   components: {},
   data() {
     return {}
