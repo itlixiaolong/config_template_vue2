@@ -68,7 +68,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     ]),
     new StylelintWebpackPlugin({
       files: ['src/**/*.vue', 'src/assets/style/*.(l|s)?(e|c)ss'],
-      fix: true
+      // fix: true
     })
   ]
 })
