@@ -10,6 +10,7 @@
 <script>
 export default {
   name: 'App',
+  props: {},
   data() {
     return {}
   },
