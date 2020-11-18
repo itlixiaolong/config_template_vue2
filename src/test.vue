@@ -10,9 +10,15 @@
 </template>
 
 <script type="text/ecmascript-6">
+// let a = ''
+// let b = a ? a : 0
+// console.log(b)
+let testBase = '11'
+console.log(testBase)
 export default {
-  name: 'Test',
   components: {},
+  // name: 'test',
+  // props: [String],
   data() {
     return {}
   }
